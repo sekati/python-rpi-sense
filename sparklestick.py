@@ -59,7 +59,7 @@ def next_colour(pix):
     pix[1] = g
     pix[2] = b
 
-    def rainbowSparkle():
+def rainbowSparkle():
     global pixels
     for pix in pixels:
         next_colour(pix)
